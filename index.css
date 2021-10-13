@@ -1,0 +1,21 @@
+#infinite-list {
+  /* We need to limit the height and show a scrollbar */
+  width: 400px;
+  height: 300px;
+  overflow: auto;
+  text-align: center;
+  /* Optional, only to check that it works with margin/padding */
+  margin: 30px auto;
+  padding: 10px;
+  border: 5px solid red;
+}
+
+#infinite-list h3 {
+  padding: 10px;
+  margin: 0;
+}
+
+#infinite-list h3:hover {
+  background-color: #333;
+  color: #fff;
+}
